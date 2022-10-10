@@ -10,11 +10,18 @@
 </head>
 <body>
     <h1>Olá. Seja Bem-vindo(a).</h1>
-    <div class="dados_Aluno">
-        <p class="text_dados">Ronaldo Luiz Pinto Filho (individual)</p> 
-        <p class="text_dados">RM96679</p>
-        <p class="text_dados">Atividade Cap 10.</p>
-    </div>
+    <table class="dados_Aluno" >
+        <caption id="titulo_tabela">Dados do Aluno</caption>
+        <th>Nome</th>
+        <th>RM</th>
+        <th>Descrição</th>
+        <tr>
+            <td class="text_dados">Ronaldo Luiz Pinto Filho (individual)</td> 
+            <td class="text_dados">RM96679</td>
+            <td class="text_dados">Atividade Cap 10.</td>
+
+        </tr>
+    </table>
     <button id="botao" onclick="exibirPopup()">Clique aqui para ativar o pop-up</button>    
     <p id="agradecimento_texto"></p>
 </body>
